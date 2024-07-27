@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohail Ahmad Resume</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.project .tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.project .tags span {
+    background-color: #333333;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.github-link {
+    text-decoration: none;
+    color: #1e90ff;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: .1rem 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.card.bg-dark {
+    background-color: #1e1e1e !important;
+    border: none;
+}
+
+.card-body h5 {
+    color: #ffffff;
+}
+
+.card-body p {
+    color: #bbbbbb;
+}
+
+.badge-secondary {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+.btn-primary {
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1c86ee;
+    border-color: #1c86ee;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 1rem;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    .navbar-brand {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    .project {
+        padding: 15px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header class="bg-dark py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand" href="#">Sohail Ahmad</a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-5">Projects</h1>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-dark text-white h-100">
+                        <img src="access.png" class="card-img-top" alt="MuscleMoney">
+                        <div class="card-body">
+                            <h5 class="card-title">MuscleMoney</h5>
+                            <p class="card-text">This project involves creating a fully responsive portfolio website using HTML, CSS, and JavaScript. The website, named "MUSCLEMONEY," is designed to showcase my design and development skills. It features a clean, modern layout with sections dedicated to different aspects of a gym, including services, pricing, and contact information. The site incorporates interactive elements and animations to enhance user engagement and provide a seamless browsing experience.</p>
+                            <div class="tags mb-3">
+                                <span class="badge badge-secondary">#HTML</span>
+                                <span class="badge badge-secondary">#CSS</span>
+                                <span class="badge badge-secondary">#JAVASCRIPT</span>
+                            </div>
+                            <a href="https://sohail-79x.github.io/MuscleMoney/" class="btn btn-primary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-dark text-white h-100">
+                        <img src="weathers.jpeg" class="card-img-top" alt="WeatherNow">
+                        <div class="card-body">
+                            <h5 class="card-title">WeatherNow</h5>
+                            <p class="card-text">This is a responsive web application that provides real-time weather information based on user-specified locations using the OpenWeatherMap API. It features a clean, user-friendly interface and an interactive map to visualize weather data. Built with HTML, CSS, JavaScript, and Bootstrap, WeatherNow ensures a seamless experience across all devices.</p>
+                            <div class="tags mb-3">
+                                <span class="badge badge-secondary">#JavaScript</span>
+                                <span class="badge badge-secondary">#CSS</span>
+                                <span class="badge badge-secondary">#HTML</span>
+                            </div>
+                            <a href="https://sohail-79x.github.io/WeatherNow/" class="btn btn-primary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-dark text-white h-100">
+                        <img src="Dolphin Logo.jpg" class="card-img-top" alt="Dolphin">
+                        <div class="card-body">
+                            <h5 class="card-title">Dolphin</h5>
+                            <p class="card-text">Dolphin Outlet is an online shopping platform designed to provide a seamless and engaging shopping experience. Featuring a wide range of products across various categories, the site incorporates user-friendly navigation and a secure checkout process. Built with modern web technologies, Dolphin Outlet ensures an intuitive and responsive design for all devices.</p>
+                            <div class="tags mb-3">
+                                <span class="badge badge-secondary">#JavaScript</span>
+                                <span class="badge badge-secondary">#CSS</span>
+                                <span class="badge badge-secondary">#HTML</span>
+                                <span class="badge badge-secondary">#PHP</span>
+                            </div>
+                            <a href="https://sohail-79x.github.io/WeatherNow/" class="btn btn-primary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <footer class="bg-dark text-center py-3">
+        <p>&copy; 2024 Sohail Ahmad. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
